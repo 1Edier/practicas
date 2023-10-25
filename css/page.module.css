@@ -1,0 +1,135 @@
+
+.bodyLayout{
+    margin: 0;
+    padding: 0;
+    background-color: #fffcf2;
+    box-sizing: border-box;
+}
+.mainPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+   
+    
+}
+.mainPage h1{
+    font-size: 45px;
+    margin: 10px;
+    color: #252422;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    min-width: 13em;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 10px;
+  
+}
+
+.btnForm{
+    width: 8em;
+    height: 2em;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    background-color: #403d39;
+    color: azure;
+    
+}
+
+.contCards{
+    border: 3px solid;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    overflow: auto;
+    height: 550px;
+    width: 680px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.card{
+    border: 1px solid;
+    background-color: #ccc5b9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 70%;
+ 
+}
+.allCards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card .text{
+    font-size: 25px;
+}
+.cardText{
+    overflow: auto;
+    padding: 10px;
+}
+.cardBtns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btns{
+    width: 6em;
+    height: 1.6em;
+    font-size: 16px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid;
+    transition: 1s all ease;
+}
+.btns:hover{
+    background-color: #403d39;
+    color: azure;
+    cursor: pointer;
+}
+
+
+.tituloCard{
+    color: rgb(0, 0, 0);
+}
+.textareaCard{
+    min-width: 8em;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 10px;
+  
+}
+
+@media screen and (max-width: 620px) {
+
+    .input{
+        width: 8em;
+    }
+
+    .contCards{
+        width: 17em;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+  }
